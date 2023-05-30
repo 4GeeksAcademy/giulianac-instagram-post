@@ -1,0 +1,53 @@
+body {
+    background-color: black;
+    font-family: Roboto;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.container {
+    margin: auto;
+    background-color: white;
+    width: 500px;
+    height: auto;
+}
+
+.header {
+    align-items: center;
+    padding: 20px;
+}
+
+.fa-html5 {
+    margin-right: 10px;
+    font-size: 45px;
+}
+
+.fa-ellipsis-v {
+    margin-left: auto;
+    font-size: 40px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.post {
+    flex-direction: column;
+    padding: 20px;
+    
+}
+.bookmark {
+    margin-left: auto;
+}
+
+.icons {
+    align-items: center;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+.fa-comment-o, .fa-send-o {
+    margin-left: 10px;
+}
